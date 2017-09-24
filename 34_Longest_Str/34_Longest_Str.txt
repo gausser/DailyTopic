@@ -1,0 +1,5 @@
+给你一个字符串组成列表strarr，给你一个整数k。[del]｛啊，strarr-k｝[/del]
+你的任务是找出由k个字符组成的最长的连续的字符串组合。
+ 例子：
+longest_consec(["zone", "abigail", "theta", "form", "libe", "zas", "theta", "abigail"], 2) --> "abigailtheta"
+ n是列表的长度，如果if n = 0 or k > n or k <= 0 return ""。
